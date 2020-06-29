@@ -2,79 +2,45 @@
 
 <!--
  * @Author       : Jingsheng Lyu
- * @Date         : 2020-06-29 19:35:07
+ * @Date         : 2020-06-29 18:30:51
  * @LastEditors  : Jingsheng Lyu
- * @LastEditTime : 2020-06-29 19:59:57
- * @FilePath     : /Deep_Learning/Chapter1/CH1_3/README.md
+ * @LastEditTime : 2020-06-29 18:56:11
+ * @FilePath     : /Deep_Learning/Chapter1/CH1_2/README.md
  * @Github       : https://github.com/jingshenglyu
  * @Web          : https://jingshenglyu.github.io/
  * @E-Mail       : jingshenglyu@gmail.com
---> 
-
 <!-- TOC -->
 
 - [Chapter 1 Math and NumPy](#chapter-1-math-and-numpy)
-    - [1.3 Multiplying the matrices](#13-multiplying-the-matrices)
-        - [1.3.1 Multiplying in NumPy:](#131-multiplying-in-numpy)
-        - [1.3.2 Dot Product](#132-dot-product)
+    - [1.3 Matrix Operation](#13-matrix-operation)
 
 <!-- /TOC -->
 # Chapter 1 Math and NumPy
 
-## 1.3 Multiplying the matrices
+## 1.3 Matrix Operation
 
-* The number of **columns** in the left matrix must **equal** the number of **rows** in the right matrix.
-* The *end matrix* always has the same number of **rows** as the matrix on the **left** and the same number of **columns** as the matrix on the **right**.
-* The order is important: multiplication **A•B is not equal** to multiplication **B•A** .
-* The data in the left-hand matrix should be arranged as rows, while the data in the right-hand matrix should be arranged as columns.
+* We want to add `5` to a list of python.
+    * python:  
+        ```
+        values = [1,2,3,4,5]
+        for i in range(len(values)):
+            values[i] += 5
 
-### 1.3.1 Multiplying in NumPy:  
-* Multiply
-    * Scalar multiply matrix  
+        # Now values is [6,7,8,9,10]
         ```
-        m = np.array([[1,2,3],[4,5,6]])
-        n = m * 0.25
-        n
+    * NumPy:
         ```
-    * Output:  
-        ```
-        array([[ 0.25,  0.5 ,  0.75],
-            [ 1.  ,  1.25,  1.5 ]])
-        ```
-    * Matrix multiply matrix
-        ```
-        m * n
-        np.multiply(m, n)
-        ```
-        They are same. Output:
-        ```
-        array([[ 0.25,  1.  ,  2.25],
-            [ 4.  ,  6.25,  9.  ]])
-        ```
+        values = [1,2,3,4,5]
+        values = np.array(values) + 5
 
-### 1.3.2 Dot Product
+        # Now values is a ndarray including [6,7,8,9,10].
+        ``` 
 
-* For 2-dim array they(`matmul` and `dot`) are same. But for n-dim, they are not always same. 
-    * `matmul`
-        ```
-        a = np.array([[1,2],[3,4]])
-        np.dot(a,a)
-        ```
-    * Output: 
-        ```
-        array([[ 7, 10],
-            [15, 22]])
-        ```
-    * `dot`
-        ```
-        np.dot(a,a)
-        ```
-    * Output: 
-        ```
-        array([[ 7, 10],
-            [15, 22]])
-        ```
-* You can check the difference bbetween [matmul](https://numpy.org/doc/stable/reference/generated/numpy.matmul.html#numpy.matmul) and [dot](https://numpy.org/doc/stable/reference/generated/numpy.dot.html).
-* [Difference](https://blog.csdn.net/yexiaohhjk/article/details/82659818) in Chinese 
+* We can also use **multiply** of **matrices**. 
+    ```
+    x = np.multiply(some_array, 5)
+    x = some_array * 5
+    ```
+    They do the same things(multiply of matrices).
 
-
+* You can also do **the multiply of matrices**. For example: **matrix = m*n**. But for m and n, they must have the same **shape**.
