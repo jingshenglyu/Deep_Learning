@@ -10,6 +10,17 @@
  * @Web          : https://jingshenglyu.github.io/
  * @E-Mail       : jingshenglyu@gmail.com
 --> 
+
+<!-- TOC -->
+
+- [Chapter 2 Introduction to Neural Networks](#chapter-2-introduction-to-neural-networks)
+    - [2.5 Neural Networks](#25-neural-networks)
+        - [2.5.1 Dot Product](#251-dot-product)
+        - [2.5.2 Three Layers Neural Networks](#252-three-layers-neural-networks)
+        - [2.5.3 Activation Function for Output-Layer](#253-activation-function-for-output-layer)
+
+<!-- /TOC -->
+
 # Chapter 2 Introduction to Neural Networks
 
 ## 2.5 Neural Networks 
