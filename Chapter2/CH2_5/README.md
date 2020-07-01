@@ -4,7 +4,7 @@
  * @Author       : Jingsheng Lyu
  * @Date         : 2020-07-01 17:11:08
  * @LastEditors  : Jingsheng Lyu
- * @LastEditTime : 2020-07-01 18:35:20
+ * @LastEditTime : 2020-07-01 20:40:56
  * @FilePath     : /Deep_Learning/Chapter2/CH2_5/README.md
  * @Github       : https://github.com/jingshenglyu
  * @Web          : https://jingshenglyu.github.io/
@@ -42,15 +42,15 @@
 
 ### 2.5.3 Activation Function for Output-Layer
 
-* Activation Function of **classification** problem using **identity function**
+* Activation Function of **regression** problem using **identity function**
 
-* Activation Function of **regression** problem using **softmax function**
+* Activation Function of **classification** problem using **softmax function**
 
 * What is [softmax function](https://en.wikipedia.org/wiki/Softmax_function)? 
     * Intervel: (0, 1)  
     * Sum: 1  
 
-    * Softmax Function in math ([Code for Softmax Function]())
+    * Softmax Function in math ([Code for Softmax Function](https://github.com/jingshenglyu/Deep_Learning/blob/master/Chapter2/CH2_5/Softmax_Function.ipynb))
     ![Softmax Function](/Images/CH2_5_2_3_Softmax_Func.png)
         * n mal nodes in the output-layer
         * Output of the k_th node is y_k  
@@ -59,4 +59,6 @@
     * It will have easily to make a **overflow**, because exp() will make the number very big.
 
     * Improvement for Softmax Function by reducing the max number of the output 
-    [Improved softmax function]()
+    [Improved softmax function](https://github.com/jingshenglyu/Deep_Learning/blob/master/Chapter2/CH2_5/Improved_Softmax_Function.ipynb)
+
+    
