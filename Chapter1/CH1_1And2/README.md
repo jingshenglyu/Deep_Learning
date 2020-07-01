@@ -4,8 +4,8 @@
  * @Author       : Jingsheng Lyu
  * @Date         : 2020-06-29 17:17:31
  * @LastEditors  : Jingsheng Lyu
- * @LastEditTime : 2020-06-29 18:29:13
- * @FilePath     : /Deep_Learning/Chapter1/README.md
+ * @LastEditTime : 2020-06-30 20:10:35
+ * @FilePath     : /Deep_Learning/Chapter1/CH1_1And2/README.md
  * @Github       : https://github.com/jingshenglyu
  * @Web          : https://jingshenglyu.github.io/
  * @E-Mail       : jingshenglyu@gmail.com
@@ -20,6 +20,7 @@
         - [1.2.3 Matrices](#123-matrices)
         - [1.2.4 Tensors](#124-tensors)
         - [1.2.5 Reshape](#125-reshape)
+        - [1.2.6 Broadcast](#126-broadcast)
     - [Reference:](#reference)
 
 <!-- /TOC -->
@@ -135,6 +136,17 @@ It means **the tensor has the dimension of 3x3x2x1**.
     ```
     Now the dimension of x is **2**. It is a **1x4 matrix**.
     * * You can also use `x = v[None, :]` to **reshape**. It is very useful for the experienced programmer. We don't explain it here.
+
+### 1.2.6 Broadcast
+
+* If the shape of two arrays are different, we can also sometimes use **the broadcast** of NumPy to calculate the product for these two arrays.
+    * Example:  
+        ```
+        A = np.array([[1,2], [3,4]])
+        B = np.array([10,20])
+        A * B
+        ```
+    * We can also get the output `array([[10,40], [30,80]])`. 
 
 
 
