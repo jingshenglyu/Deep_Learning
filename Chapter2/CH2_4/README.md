@@ -60,9 +60,12 @@
 
 
 ### 2.4.3 Step function in .ipython
+[Code for Step Function is here](https://github.com/jingshenglyu/Deep_Learning/blob/master/Chapter2/CH2_4/Step_Function.ipynb)
 
 ### 2.4.4 Sigmoid function in .ipython
+[Code for Sigmoid Function is here](https://github.com/jingshenglyu/Deep_Learning/blob/master/Chapter2/CH2_4/Sigmoid_Function.ipynb)
 
 ### 2.4.5 ReLU function in .ipython
+[Code for ReLU Function is here](https://github.com/jingshenglyu/Deep_Learning/blob/master/Chapter2/CH2_4/ReLU_Function.ipynb)
 
 
