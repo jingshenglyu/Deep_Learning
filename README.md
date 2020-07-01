@@ -4,7 +4,7 @@
  * @Author       : Jingsheng Lyu
  * @Date         : 2020-06-29 16:55:08
  * @LastEditors  : Jingsheng Lyu
- * @LastEditTime : 2020-06-30 21:03:30
+ * @LastEditTime : 2020-07-01 23:50:30
  * @FilePath     : /Deep_Learning/README.md
  * @Github       : https://github.com/jingshenglyu
  * @Web          : https://jingshenglyu.github.io/
@@ -40,6 +40,15 @@ A repository about Deep_Learning
     - [2.4 Neural Networks](#24-neural-networks)
         - [2.4.1 multi layers and introduction](#241-multi-layers-and-introduction)
         - [2.4.2 Activation Function](#242-activation-function)
+    - [2.5 Neural Networks](#25-neural-networks)
+        - [2.5.1 Dot Product](#251-dot-product)
+        - [2.5.2 Three Layers Neural Networks](#252-three-layers-neural-networks)
+        - [2.5.3 Activation Function for Output-Layer](#253-activation-function-for-output-layer)
+    - [2.6 Practice](#26-practice)
+        - [2.6.1 Handwritten Numeral Recognition](#261-handwritten-numeral-recognition)
+        - [2.6.2 Handwritten Numeral Recognition by Batch Data](#262-handwritten-numeral-recognition-by-batch-data)
+            - [load_mnist() function:](#load_mnist-function)
+            - [Neural Network for MNIST](#neural-network-for-mnist)
 
 
 # Reference
@@ -53,7 +62,8 @@ A repository about Deep_Learning
 
 5.  Jon Krohn, Grant Beyleveld and Aglaé Bassens, Deep Learning Illustrated, published in 2020 [Repository](https://github.com/the-deep-learners/deep-learning-illustrated)
 
-6. O'Reilly Japan, Deep Learning from Scratch in 2019. [in Chinese](https://github.com/LeoLiu8023AmyLu/Machine_Learning/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8-%E5%9F%BA%E4%BA%8Epython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf)
+6. O'Reilly Japan, Deep Learning from Scratch in 2019. [in Chinese](https://github.com/LeoLiu8023AmyLu/Machine_Learning/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8-%E5%9F%BA%E4%BA%8Epython%E7%9A%84%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E7%8E%B0.pdf)  
+[Repository in Japanese](https://github.com/oreilly-japan/deep-learning-from-scratch)
 
 
 
