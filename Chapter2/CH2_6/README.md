@@ -4,7 +4,7 @@
  * @Author       : Jingsheng Lyu
  * @Date         : 2020-07-01 20:41:12
  * @LastEditors  : Jingsheng Lyu
- * @LastEditTime : 2020-07-01 23:41:35
+ * @LastEditTime : 2020-07-02 07:26:37
  * @FilePath     : /Deep_Learning/Chapter2/CH2_6/README.md
  * @Github       : https://github.com/jingshenglyu
  * @Web          : https://jingshenglyu.github.io/
@@ -19,6 +19,8 @@
         - [2.6.2 Handwritten Numeral Recognition by Batch Data](#262-handwritten-numeral-recognition-by-batch-data)
             - [load_mnist() function:](#load_mnist-function)
             - [Neural Network for MNIST](#neural-network-for-mnist)
+            - [Forward Propagation:](#forward-propagation)
+            - [Normalization](#normalization)
 
 <!-- /TOC -->
 # Chapter 2 Introduction to Neural Networks
@@ -57,3 +59,10 @@
 
 * Hidden-Layer:  
     2 layers. The number of the nodes from these Hidden Layer is not important. We set here for 1st Hidden-Layer to 50, 2nd Hidden-Layer to 100. We can also set other number.
+
+#### Forward Propagation:
+    * A process from *input-layer* to *output-layer*
+
+#### Normalization
+    * Limit the data into a interval, for example `load_mnist(normalize=True, ...)`, this function make the data into (0, 1). This is **normalization**. It is a step of **pre-processing**.
+
