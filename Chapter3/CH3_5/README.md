@@ -4,7 +4,7 @@
  * @Author       : Jingsheng Lyu
  * @Date         : 2020-07-02 21:55:41
  * @LastEditors  : Jingsheng Lyu
- * @LastEditTime : 2020-07-03 23:53:06
+ * @LastEditTime : 2020-07-04 00:08:07
  * @FilePath     : /Deep_Learning/Chapter3/CH3_5/README.md
  * @Github       : https://github.com/jingshenglyu
  * @Web          : https://jingshenglyu.github.io/
@@ -20,6 +20,7 @@
     * x1 = x1 - $\eta$ * (df/dx1)
 
 * learning rate
+    * $\eta$, it decide to do how much does the neural network learn. It is also called **hyperparamer**. *Weights* are from training data and got. **Learning rate is designed by designer.**
 
 
 ### 3.5.2 gradient **ascent** method
