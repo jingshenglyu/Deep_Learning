@@ -4,7 +4,7 @@
  * @Author       : Jingsheng Lyu
  * @Date         : 2020-07-02 21:55:41
  * @LastEditors  : Jingsheng Lyu
- * @LastEditTime : 2020-07-02 23:24:47
+ * @LastEditTime : 2020-07-03 23:25:52
  * @FilePath     : /Deep_Learning/Chapter3/CH3_5/README.md
  * @Github       : https://github.com/jingshenglyu
  * @Web          : https://jingshenglyu.github.io/
@@ -17,6 +17,7 @@
 * formula:
 
 * learning rate
+
 
 ### 3.5.2 gradient **ascent** method
 
