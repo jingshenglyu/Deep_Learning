@@ -10,6 +10,16 @@
  * @Web          : https://jingshenglyu.github.io/
  * @E-Mail       : jingshenglyu@gmail.com
 --> 
+
+<!-- TOC -->
+
+- [Chapter 4 Error Back Propagation](#chapter-4-error-back-propagation)
+    - [4.2 Forward Propagation and Backward Propagation](#42-forward-propagation-and-backward-propagation)
+        - [4.2.1 Forward Propagation(FP)](#421-forward-propagationfp)
+        - [4.2.2 Backward Propagation(BP)](#422-backward-propagationbp)
+
+<!-- /TOC -->
+
 # Chapter 4 Error Back Propagation
 
 ## 4.2 Forward Propagation and Backward Propagation 

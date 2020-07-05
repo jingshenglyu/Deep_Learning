@@ -10,6 +10,14 @@
  * @Web          : https://jingshenglyu.github.io/
  * @E-Mail       : jingshenglyu@gmail.com
 --> 
+
+<!-- TOC -->
+
+- [Chapter 4 Error Back Propagation](#chapter-4-error-back-propagation)
+    - [4.1 Basic Content](#41-basic-content)
+    - [4.1.1 Numerical Differentiation vs Error Back Propagation](#411-numerical-differentiation-vs-error-back-propagation)
+
+<!-- /TOC -->
 # Chapter 4 Error Back Propagation
 
 ## 4.1 Basic Content
