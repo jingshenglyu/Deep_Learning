@@ -10,6 +10,15 @@
  * @Web          : https://jingshenglyu.github.io/
  * @E-Mail       : jingshenglyu@gmail.com
 --> 
+<!-- TOC -->
+
+- [Chapter 3 Data Learning in Neural Network](#chapter-3-data-learning-in-neural-network)
+    - [3.2 Loss Function](#32-loss-function)
+        - [3.2.1 **Generalization** ability:](#321-generalization-ability)
+        - [3.2.2 Over fitting:](#322-over-fitting)
+        - [3.2.3 Loss(Cost) Function](#323-losscost-function)
+
+<!-- /TOC -->
 # Chapter 3 Data Learning in Neural Network
 
 ## 3.2 Loss Function

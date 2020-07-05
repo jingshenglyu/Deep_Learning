@@ -10,7 +10,12 @@
  * @Web          : https://jingshenglyu.github.io/
  * @E-Mail       : jingshenglyu@gmail.com
 --> 
+<!-- TOC -->
 
+- [Chapter 3 Data Learning in Neural Network](#chapter-3-data-learning-in-neural-network)
+    - [3.3 Mini-Batch](#33-mini-batch)
+
+<!-- /TOC -->
 # Chapter 3 Data Learning in Neural Network
 
 ## 3.3 Mini-Batch

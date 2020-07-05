@@ -10,7 +10,12 @@
  * @Web          : https://jingshenglyu.github.io/
  * @E-Mail       : jingshenglyu@gmail.com
 --> 
+<!-- TOC -->
 
+- [Chapter 3 Data Learning in Neural Network](#chapter-3-data-learning-in-neural-network)
+    - [3.7 How to make a learning argorithm of neural network?](#37-how-to-make-a-learning-argorithm-of-neural-network)
+
+<!-- /TOC -->
 # Chapter 3 Data Learning in Neural Network
 
 ## 3.7 How to make a learning argorithm of neural network?

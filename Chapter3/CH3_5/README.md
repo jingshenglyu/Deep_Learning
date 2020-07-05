@@ -10,6 +10,15 @@
  * @Web          : https://jingshenglyu.github.io/
  * @E-Mail       : jingshenglyu@gmail.com
 --> 
+<!-- TOC -->
+
+- [Chapter 3 Data Learning in Neural Network](#chapter-3-data-learning-in-neural-network)
+    - [3.5 Gradient Method](#35-gradient-method)
+        - [3.5.1 gradient **descent** method](#351-gradient-descent-method)
+        - [3.5.2 gradient **ascent** method](#352-gradient-ascent-method)
+        - [3.5.3 gradient for neural network](#353-gradient-for-neural-network)
+
+<!-- /TOC -->
 # Chapter 3 Data Learning in Neural Network
 
 ## 3.5 Gradient Method

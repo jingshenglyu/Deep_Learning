@@ -10,6 +10,15 @@
  * @Web          : https://jingshenglyu.github.io/
  * @E-Mail       : jingshenglyu@gmail.com
 --> 
+<!-- TOC -->
+
+- [Chapter 3 Data Learning in Neural Network](#chapter-3-data-learning-in-neural-network)
+    - [3.4 Numerical Differentiation](#34-numerical-differentiation)
+        - [3.4.1 Derivative:](#341-derivative)
+        - [3.4.2 Partial Derivative](#342-partial-derivative)
+        - [3.4.3 Gradient](#343-gradient)
+
+<!-- /TOC -->
 # Chapter 3 Data Learning in Neural Network
 
 ## 3.4 Numerical Differentiation
