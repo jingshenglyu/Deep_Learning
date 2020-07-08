@@ -21,11 +21,11 @@
 ## 6.1 Structure
 * Input Layer --> {**Convolution Layer** --> Activation Function --> (**Pooling Layer**)} --> Output Layer  
     {...}: CNN Layer
-    ![CNN](/Images/CH7_1_2_CNN.png)
+    ![CNN](/Images/CH6_1_2_CNN.png)
 * Connection
     * Fully-connected:  
     Using Affine Layer
-    ![Full](/Images/CH7_1_1_Full.png)
+    ![Full](/Images/CH6_1_1_Full.png)
     * Local-connected
 
 
