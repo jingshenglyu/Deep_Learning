@@ -10,6 +10,16 @@
  * @Web          : https://jingshenglyu.github.io/
  * @E-Mail       : jingshenglyu@gmail.com
 --> 
+
+<!-- TOC -->
+
+- [Chapter6 Convolution Neural Network](#chapter6-convolution-neural-network)
+    - [6.3 Pooling Layer](#63-pooling-layer)
+        - [6.3.1 Purpose:](#631-purpose)
+        - [6.3.2 Characters of Pooling Layer](#632-characters-of-pooling-layer)
+        - [6.3.3 Base on im2col](#633-base-on-im2col)
+
+<!-- /TOC -->
 # Chapter6 Convolution Neural Network
 
 ## 6.3 Pooling Layer
