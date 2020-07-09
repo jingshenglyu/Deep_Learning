@@ -4,7 +4,7 @@
  * @Author       : Jingsheng Lyu
  * @Date         : 2020-06-29 16:55:08
  * @LastEditors  : Jingsheng Lyu
- * @LastEditTime : 2020-07-02 00:00:01
+ * @LastEditTime : 2020-07-09 23:10:26
  * @FilePath     : /Deep_Learning/README.md
  * @Github       : https://github.com/jingshenglyu
  * @Web          : https://jingshenglyu.github.io/
@@ -31,6 +31,7 @@ A repository about Deep_Learning
         - [1.4.2 Dot Product](https://github.com/jingshenglyu/Deep_Learning/tree/master/Chapter1/CH1_4)
     - [1.5 Matrix transpose](https://github.com/jingshenglyu/Deep_Learning/tree/master/Chapter1/CH1_5)
     - [1.6 NumPy Test](https://github.com/jingshenglyu/Deep_Learning/blob/master/Chapter1/CH1_6/NumPy_Test.ipynb)
+
 - [Chapter 2 Introduction to Neural Networks](#chapter-2-introduction-to-neural-networks)
     - [2.1 Perceptron](#21-perceptron)
     - [2.2 Logical Connective](#22-logical-connective)
@@ -49,6 +50,62 @@ A repository about Deep_Learning
         - [2.6.2 Handwritten Numeral Recognition by Batch Data](#262-handwritten-numeral-recognition-by-batch-data)
             - [load_mnist() function:](#load_mnist-function)
             - [Neural Network for MNIST](#neural-network-for-mnist)
+
+- [Chapter 3 Data Learning in Neural Network](#chapter-3-data-learning-in-neural-network)
+    - [3.1 feature](#31-feature)
+    - [3.2 Loss Function](#32-loss-function)
+        - [3.2.1 **Generalization** ability:](#321-generalization-ability)
+        - [3.2.2 Over fitting:](#322-over-fitting)
+        - [3.2.3 Loss(Cost) Function](#323-losscost-function)
+    - [3.3 Mini-Batch](#33-mini-batch)
+    - [3.4 Numerical Differentiation](#34-numerical-differentiation)
+        - [3.4.1 Derivative:](#341-derivative)
+        - [3.4.2 Partial Derivative](#342-partial-derivative)
+        - [3.4.3 Gradient](#343-gradient)
+    - [3.5 Gradient Method](#35-gradient-method)
+        - [3.5.1 gradient **descent** method](#351-gradient-descent-method)
+        - [3.5.2 gradient **ascent** method](#352-gradient-ascent-method)
+        - [3.5.3 gradient for neural network](#353-gradient-for-neural-network)
+    - [3.6 Gradient of neural network](#36-gradient-of-neural-network)
+
+- [Chapter 4 Error Back Propagation](#chapter-4-error-back-propagation)
+    - [4.1 Basic Content](#41-basic-content)
+    - [4.1.1 Numerical Differentiation vs Error Back Propagation](#411-numerical-differentiation-vs-error-back-propagation)
+    - [4.2 Forward Propagation and Backward Propagation](#42-forward-propagation-and-backward-propagation)
+        - [4.2.1 Forward Propagation(FP)](#421-forward-propagationfp)
+        - [4.2.2 Backward Propagation(BP)](#422-backward-propagationbp)
+    - [4.3 Derivative](#43-derivative)
+        - [4.3.1 Chain Rule](#431-chain-rule)
+    - [4.4 Activation Function for Computational Graph of Neural Network](#44-activation-function-for-computational-graph-of-neural-network)
+        - [4.4.1 Activation Function](#441-activation-function)
+        - [4.4.2 Affine Layer](#442-affine-layer)
+    - [4.5 Gradient Check](#45-gradient-check)
+- [Chapter 5](#chapter-5)
+    - [5.1 Methode of the update of the parameters(weights and bias)](#51-methode-of-the-update-of-the-parametersweights-and-bias)
+        - [5.1.1 SGD](#511-sgd)
+        - [5.1.2 Momentum](#512-momentum)
+        - [5.1.3 AdaGrad](#513-adagrad)
+        - [5.1.4 Adam](#514-adam)
+    - [5.2 Methode of the assignment for the initial values of the weights](#52-methode-of-the-assignment-for-the-initial-values-of-the-weights)
+    - [5.3 Batch Normalization](#53-batch-normalization)
+    - [5.4 Droput](#54-droput)
+- [Chapter6 Convolution Neural Network](#chapter6-convolution-neural-network)
+    - [6.1 Structure](#61-structure)
+    - [6.2 CNN Layer](#62-cnn-layer)
+        - [6.2.1 Fully Connection vs Local Connection](#621-fully-connection-vs-local-connection)
+        - [6.2.2 Feature Map](#622-feature-map)
+        - [6.2.3 Convolution/Filter Operation](#623-convolutionfilter-operation)
+        - [6.2.4 Weights and Bias for CNN](#624-weights-and-bias-for-cnn)
+        - [6.2.5 Padding and Stride](#625-padding-and-stride)
+        - [6.2.6 n-dim for CNN](#626-n-dim-for-cnn)
+        - [Chapter6 Convolution Neural Network](#chapter6-convolution-neural-network)
+    - [6.3 Pooling Layer](#63-pooling-layer)
+        - [6.3.1 Purpose:](#631-purpose)
+        - [6.3.2 Characters of Pooling Layer](#632-characters-of-pooling-layer)
+        - [6.3.3 Base on im2col](#633-base-on-im2col)
+    - [6.4 Code for CNN and Pooling](#64-code-for-cnn-and-pooling)
+        - [6.4.1 CNN](#641-cnn)
+        - [6.4.2 Pooling](#642-pooling)
 
 
 # Reference
