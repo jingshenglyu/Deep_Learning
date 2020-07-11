@@ -15,7 +15,8 @@ import torch
 points = torch.randn(2, 3)
 print(points)
 torch.save(points, 'ourpoints.t')
-#with open('/common/ourpoints.pt', 'wb') as f:
+torch.save(points, '/home/jingsheng/Deep_Learning/Chapter0/PyTorch/Chapter0/common/ourpoints.pt')
+#with open('/home/jingsheng/Deep_Learning/Chapter0/PyTorch/Chapter0/common/ourpoints.pt', 'wb') as f:
 #    torch.save(points, f)
 
 # load points from /common/ourpoints.t
