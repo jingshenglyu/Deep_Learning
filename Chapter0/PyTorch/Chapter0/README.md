@@ -24,6 +24,7 @@
     - [0.7 API for PyTorch](#07-api-for-pytorch)
 
 <!-- /TOC -->
+
 # Chapter 0 Base for PyTorch
 
 ## 0.1 Introduction to PyTorch and basic information 
